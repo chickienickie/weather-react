@@ -8,7 +8,7 @@ export default function Footer() {
         Last updated: <span id="date">Monday, July 25, 2022 at 02:00pm</span>
       </footer>
       <small>
-        <a href="https://github.com/chickienickie/chic-weather-app">
+        <a href="https://github.com/chickienickie/weather-react">
           Open Source Code <i class=" fa-brands fa-github"></i>
         </a>
         by Nickie Potter
