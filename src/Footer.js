@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <footer>
-        Last updated: <span id="date">Monday, July 25, 2022 at 02:00pm</span>
+        Last updated: <span id="date">Monday, August 22, 2022 at 01:00pm</span>
       </footer>
       <small>
         <a href="https://github.com/chickienickie/weather-react">
