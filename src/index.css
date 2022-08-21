@@ -1,0 +1,194 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  height: 100%;
+}
+
+.App {
+  max-width: 900px;
+  border: #575756;
+  margin: 50px;
+  border-style: solid;
+  padding: 3rem;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 62px;
+  line-height: 62px;
+  vertical-align: middle;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: black;
+}
+
+h2 {
+  font-size: 80px;
+  line-height: 62px;
+  vertical-align: middle;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+hr {
+  border-width: 1px 0;
+  border-color: black;
+}
+
+hr#hr-bottom {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 62px;
+  line-height: 62px;
+  vertical-align: middle;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: black;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 100;
+}
+
+hr {
+  border-width: 1px 0;
+  border-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 62px;
+  line-height: 62px;
+  vertical-align: middle;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: black;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+p {
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+#weather-condition {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+#weather-condition h6 {
+  font-size: 36px;
+  margin-bottom: 2px;
+}
+
+#weather-condition p {
+  margin-bottom: 3px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#condition {
+  text-transform: capitalize;
+}
+
+#city {
+  color: rgb(14, 13, 13);
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.row :hover {
+  color: #70706e;
+}
+
+@media (max-width: 900px) {
+  h1,
+  h2 {
+    text-align: center;
+    line-height: 0.6;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+  }
+
+  .App {
+    border: none;
+  }
+}
